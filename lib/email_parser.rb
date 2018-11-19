@@ -4,4 +4,8 @@
 # or whitespace (' ').
 
 class EmailParser
-  
+  def initialize(enaukstrubg)
+#   # you don't need name in here, it is redundant/
+#   @name = name
+    @csv_emails = csv_emails
+  end 
