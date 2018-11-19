@@ -4,6 +4,12 @@
 # or whitespace (' ').
 
 class EmailParser
-  def initialize(emailstring)_
+  def initialize(emailstring)
     @csv_emails = emailstring
   end 
+   def parse 
+    emailstring.split.collect do |email|
+      email.split(',') 
+    end.flatten.uniq 
+  end 
+end 
