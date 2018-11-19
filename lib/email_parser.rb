@@ -5,7 +5,5 @@
 
 class EmailParser
   def initialize(emailstring)_
-#   # you don't need name in here, it is redundant/
-#   @name = name
     @csv_emails = emailstring
   end 
